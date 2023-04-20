@@ -12,7 +12,7 @@ loaded_model = load_model('my_model.h5')
 emotion_labels = ['Not Attentive', 'Not Attentive', 'Not Attentive', 'Not Attentive', 'Not Attentive', 'Not Attentive', 'Attentive']
 
 # Create a face detector object
-face_detector = cv2.CascadeClassifier('C:/DOCUMENTS/8th sem/Project/data/opencv-master/data/haarcascades/haarcascade_frontalface_default.xml')
+face_detector = cv2.CascadeClassifier('Your Haarcascade file path')
 
 # Start capturing video
 cap = cv2.VideoCapture(0)
