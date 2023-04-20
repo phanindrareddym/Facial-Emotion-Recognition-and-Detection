@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Read the dataset
-dataset = pd.read_csv("C:/DOCUMENTS/8th sem/Project/data/fer2013.csv")
+dataset = pd.read_csv("Your dataset csv file path")
 
 # Extract emotions and pixel values
 emotions = dataset["emotion"].values
